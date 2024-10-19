@@ -74,8 +74,8 @@ Follow these steps to run the Virtual Trial Room project:
    Clone the repository or download all the project files from the repository.
 
 2. **Modify the file paths**:  
-   Open `Test for Review 3 laptop.py` in your IDE (we recommend PyCharm).  
-   Change the file paths for the shirt and pant images for both male and female models. Additionally, provide paths for the button images (there are three button images).
+   Open `VTR.py` in your IDE (we recommend PyCharm).  
+   Change the file paths for the shirt and pant images for both male and female models (MalePants,MaleShirts,FemaleShirts & FemalePants). Additionally, provide paths for the button images (there are button images in 'Buttons' directory use malebutton.png , femalebutton.png & resetbutton.png ).
 
    Example:
    ```python
@@ -89,7 +89,7 @@ Follow these steps to run the Virtual Trial Room project:
 3. **Run the program**:
    Once you've updated the file paths, run the program using your IDE or through the terminal:
    ```bash
-   python "Test for Review 3 laptop.py"
+   python "VTR.py"
    ```
 
 ---
