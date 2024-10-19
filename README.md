@@ -79,11 +79,13 @@ Follow these steps to run the Virtual Trial Room project:
 
    Example:
    ```python
-   shirtFolderMale = "path/to/male/shirt/images"
-   pantFolderMale = "path/to/male/pant/images"
-   shirtFolderFemale = "path/to/female/shirt/images"
-   pantFolderFemale = "path/to/female/pant/images"
-   buttonImagePath = "path/to/button/images"
+   shirtFolderPath_male = "path/to/MaleShirts"
+   pantFolderPath_male = "path/to/FemaleShirts"
+   shirtFolderPath_female = "path/to/FemaleShirts"
+   pantFolderPath_female = "path/to/FemalePant"
+   imgButtonMale = "path/to/Buttons/malebutton.png"
+   imgButtonFemale = "path/to/Buttons/femalebutton.png"
+   imgButtonReset = "path/to/Buttons/resetbutton.png"
    ```
 
 3. **Run the program**:
